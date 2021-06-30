@@ -6,16 +6,12 @@
 }
 
 .section{
+    width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin: auto;
 }
-
-.half-width{
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 2%;
-}
-
 h1{
     font-size: 35px;
     font-weight: 500;
@@ -40,30 +36,31 @@ h4{
 /* =========== */
 /* Top Section */
 /* =========== */
-.top-section{
+.top-banner{
     background-image: url('/Resources/top-banner.png');
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
-.half-width img{
+.top-banner .section img{
     margin-top: 20px;
-    width: 100%;
+    width: 80%;
 }
 
-.half-width h1{
+.top-benner-text h1{
     line-height: 70px;
     margin-top: 100px;
     margin-bottom: 30px;
 }
 
-.half-width h1 .my-name{
+.top-benner-text h1 .my-name{
     color: coral;
 }
 
-.half-width h4{
+.top-benner-text h4{
     margin-bottom: 20px;
 }
 
-.half-width p{
+.top-benner-text p{
     margin-bottom: 30px;
 }
 
@@ -72,8 +69,61 @@ h4{
 /* ============= */
 
 .dream-section{
-    margin-top: 40px;
     background-image: url('/Resources/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 80px;
+}
+
+.dream-section .section img{
+    width: 80%;
+}
+
+.dream-text h1{
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.dream-text h4{
+    margin-bottom: 20px;
+}
+
+.dream-text p{
+    margin-bottom: 30px;
+}
+
+/* ================== */
+/* Experience Section */
+/* ================== */
+.experience{
+    margin-bottom: 100px;
+}
+.experience h1{
+    margin-left:7.5%;
+    margin-bottom: 35px;
+}
+.experience-year{
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 25px rgb(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    border-left: 8px solid coral;
+    padding: 25px;
+}
+.experience .section .one{
+    border-left: 8px solid coral;
+}
+.experience .section .two{
+    border-left: 8px solid rgb(49, 65, 155);
+}
+
+.experience-year h2{
+    font-weight: 500;
+    margin-top: 25px;
+}
+.experience-year h4{
+    color: coral;
+    margin-bottom: 20px;
+}
+.experience-year p{
+    margin-bottom: 80px;
 }
