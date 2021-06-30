@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section{
+    float: left;
+}
+.left-side{
+    width: 40%;
+}
+.half-width{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.half-width img{
+    margin-top: 20px;
+    width: 60%;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn{
+    padding: 8px 26px;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* ============== */
+/* Header Section */
+/* ============== */
+
+.half-width h1{
+    line-height: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.half-width h1 .my-name{
+    color: coral;
+}
+
+.half-width h4{
+    margin-bottom: 20px;
+}
+
+.half-width p{
+    margin-bottom: 20px;
+}
