@@ -96,7 +96,11 @@ h4{
 /* Experience Section */
 /* ================== */
 .experience{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    background-image: url('/Resources/exp-bg.png');
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position:left;
 }
 .experience h1{
     margin-left:7.5%;
@@ -126,4 +130,16 @@ h4{
 }
 .experience-year p{
     margin-bottom: 80px;
+}
+
+/* ============== */
+/* Footer Section */
+/* ============== */
+
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
 }
